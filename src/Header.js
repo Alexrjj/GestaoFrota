@@ -2,7 +2,7 @@ import "./App.css";
 
 export default function Header() {
   const pageScroll = {
-    color: "white;",
+    color: "white",
     fontSize: "2.5rem",
     fontWeight: 800,
   };
@@ -27,55 +27,55 @@ export default function Header() {
     <div>
       {/* <!-- PRELOADER --> */}
       {/* <div id="preloader">
-        <div class="spinner"></div>
+        <div className="spinner"></div>
       </div> */}
       {/* <!-- MAIN NAV --> */}
-      <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-          <div class="navbar-header page-scroll">
+      <nav className="navbar navbar-default navbar-fixed-top">
+        <div className="container">
+          <div className="navbar-header page-scroll">
             <button
               type="button"
-              class="navbar-toggle"
+              className="navbar-toggle"
               data-toggle="collapse"
               data-target="#main-menu"
             >
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
             </button>
             {/* <!-- MAIN NAV LOGO --> */}
-            {/* <!-- <a class="logo page-scroll" href="#header"
-            ><img src="img/logo.png" class="img-responsive" alt=""
+            {/* <!-- <a className="logo page-scroll" href="#header"
+            ><img src="img/logo.png" className="img-responsive" alt=""
           /></a> --> */}
-            <a class="logo page-scroll" href="#header">
+            <a className="logo page-scroll" href="#header">
               <p style={pageScroll}>Gestão de Frotas</p>
             </a>
           </div>
-          <div class="collapse navbar-collapse" id="main-menu">
+          <div className="collapse navbar-collapse" id="main-menu">
             {/* <!-- MAIN NAV LINKS --> */}
-            <ul class="nav navbar-nav navbar-right">
+            <ul className="nav navbar-nav navbar-right">
               <li>
-                <a class="page-scroll" href="#services">
+                <a className="page-scroll" href="#services">
                   Serviços
                 </a>
               </li>
               <li>
-                <a class="page-scroll" href="#pricing">
+                <a className="page-scroll" href="#pricing">
                   Planos
                 </a>
               </li>
               <li>
-                <a class="page-scroll" href="#team">
+                <a className="page-scroll" href="#team">
                   Quem somos
                 </a>
               </li>
               <li>
-                <a class="page-scroll" href="#contact">
+                <a className="page-scroll" href="#contact">
                   Contato
                 </a>
               </li>
               <li>
-                <a class="page-scroll" href="#login">
+                <a className="page-scroll" href="#login">
                   Login
                 </a>
               </li>
@@ -87,27 +87,27 @@ export default function Header() {
       {/* <!-- END MAIN NAV --> */}
       {/* <!-- HEADER --> */}
       <header id="header">
-        <div class="container">
-          <div class="intro-text">
-            <h1 class="intro-lead-in" style={introLeadIn}>
+        <div className="container">
+          <div className="intro-text">
+            <h1 className="intro-lead-in" style={introLeadIn}>
               Sistema completo para gestão de frotas
             </h1>
-            <span class="intro-heading" style={introHeading}>
+            <span className="intro-heading" style={introHeading}>
               Fácil, intuitivo e online. Alcance melhores resultados e reduza
               custos com o nosso sistema para controle e gestão de veículos.
             </span>
-            {/* <!-- <div class="header-buttons">
-            <a href="#" class="primary-button">Buy Now</a>
-            <a href="#features" class="secondary-button page-scroll hidden-xs"
+            {/* <!-- <div className="header-buttons">
+            <a href="#" className="primary-button">Buy Now</a>
+            <a href="#features" className="secondary-button page-scroll hidden-xs"
               >Learn More</a
             >
           </div> --> */}
 
-            <div class="header-dashboard">
-              {/* <!-- <img src="img/macbook.png" class="dashboard" alt="" /> --> */}
+            <div className="header-dashboard">
+              {/* <!-- <img src="img/macbook.png" className="dashboard" alt="" /> --> */}
               <img
                 src="img/dashboard2.png"
-                class="dashboard"
+                className="dashboard"
                 alt=""
                 style={dashboard}
               />

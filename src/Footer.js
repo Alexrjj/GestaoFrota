@@ -5,13 +5,13 @@ export default function Footer() {
     <div>
       {/* <!-- FOOTER --> */}
       <footer>
-        <div class="container">
-          <div class="row">
+        <div className="container">
+          <div className="row">
             {/* <!-- UPPER FOOTER --> */}
-            <div class="upper-footer">
-              <div class="pull-left">
-                {/* <!-- <a class="logo page-scroll" href="#page-top"
-                ><img src="img/logo.png" class="img-responsive" alt=""
+            <div className="upper-footer">
+              <div className="pull-left">
+                {/* <!-- <a className="logo page-scroll" href="#page-top"
+                ><img src="img/logo.png" className="img-responsive" alt=""
               /></a> --> */}
                 <h1 style={{ color: "white" }}>Gestão de Frotas</h1>
                 <p>
@@ -20,53 +20,54 @@ export default function Footer() {
                   veículos.
                 </p>
               </div>
-              <div class="pull-right">
-                <ul class="footer-nav">
-                  <li class="">
-                    <a class="page-scroll" href="#services">
+              <div className="pull-right">
+                <ul className="footer-nav">
+                  <li className="">
+                    <a className="page-scroll" href="#services">
                       Sobre
                     </a>
                   </li>
-                  <li class="">
-                    <a class="page-scroll" href="#features">
+                  <li className="">
+                    <a className="page-scroll" href="#features">
                       Funcionalidades
                     </a>
                   </li>
-                  <li class="">
-                    <a class="page-scroll" href="#pricing">
+                  <li className="">
+                    <a className="page-scroll" href="#pricing">
                       Planos
                     </a>
                   </li>
-                  <li class="active">
-                    <a class="page-scroll" href="#team">
+                  <li className="active">
+                    <a className="page-scroll" href="#team">
                       Equipe
                     </a>
                   </li>
-                  <li class="">
-                    <a class="page-scroll" href="#clients">
+                  <li className="">
+                    <a className="page-scroll" href="#clients">
                       Clientes
                     </a>
                   </li>
                 </ul>
-                <ul class="footer-secondary-nav">
-                  <li class="">
-                    <a class="page-scroll" href="#phone">
-                      <span class="fa fa-phone"></span>+55 (21) 9 8809-3755
+                <ul className="footer-secondary-nav">
+                  <li className="">
+                    <a className="page-scroll" href="#phone">
+                      <span className="fa fa-phone"></span>+55 (21) 9 8809-3755
                     </a>
                   </li>
-                  <li class="">
-                    <a class="page-scroll" href="#email">
-                      <span class="fa fa-envelope"></span>oi@gestaofrotas.com.br
+                  <li className="">
+                    <a className="page-scroll" href="#email">
+                      <span className="fa fa-envelope"></span>
+                      oi@gestaofrotas.com.br
                     </a>
                   </li>
-                  <li class="">
+                  <li className="">
                     <a
                       style={{ textAlign: "left" }}
-                      class="page-scroll"
+                      className="page-scroll"
                       href="#address"
                     >
-                      <span class="fa fa-map-marker"></span>Avenida Pirineus, nº
-                      200 - Vista Alegre - São Gonçalo/RJ
+                      <span className="fa fa-map-marker"></span>Avenida
+                      Pirineus, nº 200 - Vista Alegre - São Gonçalo/RJ
                     </a>
                   </li>
                 </ul>
@@ -74,30 +75,30 @@ export default function Footer() {
             </div>
             {/* <!-- END UPPER FOOTER -->
             <!-- LOWER FOOTER --> */}
-            <div class="lower-footer">
-              <div class="pull-left">
+            <div className="lower-footer">
+              <div className="pull-left">
                 <span>© 2015 LoremIpsum Themes. All rights reserved </span>
                 <a href="#terms"> Terms of Service </a>
                 <a href="#privacy"> Privacy Policy </a>
               </div>
-              <div class="pull-right">
+              <div className="pull-right">
                 <a href="#facebook">
-                  <span class="fa fa-facebook"></span>
+                  <span className="fa fa-facebook"></span>
                 </a>
                 <a href="#twitter">
-                  <span class="fa fa-twitter"></span>
+                  <span className="fa fa-twitter"></span>
                 </a>
                 <a href="#linkedin">
-                  <span class="fa fa-linkedin"></span>
+                  <span className="fa fa-linkedin"></span>
                 </a>
                 <a href="#youtube">
-                  <span class="fa fa-youtube"></span>
+                  <span className="fa fa-youtube"></span>
                 </a>
                 <a href="#pinterest">
-                  <span class="fa fa-pinterest"></span>
+                  <span className="fa fa-pinterest"></span>
                 </a>
                 <a href="#skype">
-                  <span class="fa fa-skype"></span>
+                  <span className="fa fa-skype"></span>
                 </a>
               </div>
             </div>
