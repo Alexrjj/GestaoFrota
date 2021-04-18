@@ -5,7 +5,7 @@ const useScript = (url) => {
     const script = document.createElement("script");
 
     script.src = url;
-    script.type = "text/babel";
+    script.type = "text/javascript";
     script.async = false;
 
     document.body.appendChild(script);

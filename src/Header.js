@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import importScript from "../src/utils/importScript";
+import React from "react";
+import importScript from "./utils/importScript";
 import "./App.css";
 
 export default function Header() {
@@ -25,17 +25,17 @@ export default function Header() {
     borderRadius: "15px",
   };
 
-  importScript("src/js/jquery.js");
-  importScript("src/js/jquery.easing.min.js");
-  importScript("src/js/bootstrap.min.js");
-  importScript("src/js/smoothscroll.js");
-  importScript("src/js/classie.js");
-  importScript("src/js/jquery.easytabs.min.js");
-  importScript("src/js/piechart.js");
-  importScript("src/js/particles.js");
-  importScript("src/js/owl.carousel.min.js");
-  importScript("src/js/jqBootstrapValidation.js");
-  importScript("src/js/scripts.js");
+  importScript("./js/jquery.js");
+  importScript("./js/jquery.easing.min.js");
+  importScript("./js/bootstrap.min.js");
+  importScript("./js/smoothscroll.js");
+  importScript("./js/classie.js");
+  importScript("./js/jquery.easytabs.min.js");
+  importScript("./js/piechart.js");
+  importScript("./js/particles.js");
+  importScript("./js/owl.carousel.min.js");
+  importScript("./js/jqBootstrapValidation.js");
+  importScript("./js/scripts.js");
 
   // useEffect(() => {
   //   const script = document.createElement("script");
