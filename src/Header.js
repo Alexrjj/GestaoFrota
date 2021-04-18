@@ -52,9 +52,9 @@ export default function Header() {
   return (
     <div>
       {/* <!-- PRELOADER --> */}
-      {/* <div id="preloader">
+      <div id="preloader">
         <div className="spinner"></div>
-      </div> */}
+      </div>
       {/* <!-- MAIN NAV --> */}
       <nav className="navbar navbar-default navbar-fixed-top">
         <div className="container">
