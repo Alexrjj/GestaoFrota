@@ -650,6 +650,8 @@ header .header-dashboard {
   margin-bottom: 10px;
 }
 header .header-dashboard .dashboard {
+  width: 80%;
+  border-radius: 20px;
   margin-top: 70px;
 }
 header .container {
