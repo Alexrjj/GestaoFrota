@@ -1,6 +1,7 @@
 import React from "react";
 import importScript from "./utils/importScript";
 import "./App.css";
+import dashboard2 from "./img/dashboard2.png";
 
 export default function Header() {
   const pageScroll = {
@@ -37,18 +38,6 @@ export default function Header() {
   importScript("./js/jqBootstrapValidation.js");
   importScript("./js/scripts.js");
 
-  // useEffect(() => {
-  //   const script = document.createElement("script");
-
-  //   script.src = "https://use.typekit.net/foobar.js";
-  //   script.async = true;
-
-  //   document.body.appendChild(script);
-
-  //   return () => {
-  //     document.body.removeChild(script);
-  //   };
-  // }, []);
   return (
     <div>
       {/* <!-- PRELOADER --> */}
@@ -130,7 +119,7 @@ export default function Header() {
           </div> --> */}
 
             <div className="header-dashboard">
-              {/* <!-- <img src="img/macbook.png" className="dashboard" alt="" /> --> */}
+              <img src={dashboard2} className="dashboard" alt="" />
               <img
                 src="img/dashboard2.png"
                 className="dashboard"
