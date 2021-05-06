@@ -1,4 +1,6 @@
 import "./App.css";
+import tab1 from "./img/mockups/tab1.png";
+import tab2 from "./img/mockups/tab2.png";
 
 export default function Features() {
   const border = {
@@ -35,11 +37,7 @@ export default function Features() {
                 >
                   Criar Conta
                 </a>
-                <img
-                  src="/img/mockups/tab1.png"
-                  className="fadeRight animated"
-                  alt=""
-                />
+                <img src={tab1} className="fadeRight animated" alt="" />
               </div>
               {/* <!-- END TAB 1 --> */}
               {/* <!-- TAB 2 --> */}
@@ -64,11 +62,7 @@ export default function Features() {
                 >
                   Baixar versão mobile
                 </a>
-                <img
-                  src="img/mockups/tab2.png"
-                  className="fadeRight animated"
-                  alt=""
-                />
+                <img src={tab2} className="fadeRight animated" alt="" />
               </div>
               {/* <!-- END TAB 2 --> */}
 
